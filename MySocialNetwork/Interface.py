@@ -22,7 +22,7 @@ class Ui_Form(object):
         self.stackedWidget.setFont(font)
         self.stackedWidget.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.stackedWidget.setStyleSheet("background-color:#c3c3c3\n"
-"/* #C3BEF0 #5AB9EA background-color:#00bfff")
+                                         "/* #C3BEF0 #5AB9EA background-color:#00bfff")
         self.stackedWidget.setObjectName("stackedWidget")
         self.Registration = QtWidgets.QWidget()
         self.Registration.setObjectName("Registration")
@@ -34,19 +34,19 @@ class Ui_Form(object):
         font.setFamily("MS Reference Sans Serif")
         self.acceptRegButton.setFont(font)
         self.acceptRegButton.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"    vertical-align: middle;\n"
-"}")
+                                           "    /*background-color: #d39fcf;*/\n"
+                                           "    background-color: #e7d2f1;\n"
+                                           "    border: 1px solid;\n"
+                                           "    border-radius:15;\n"
+                                           "    border-color: black;\n"
+                                           "    /*color: #8860D0;*/\n"
+                                           "    color: black\n"
+                                           "}\n"
+                                           "\n"
+                                           "QPushButton:pressed {\n"
+                                           "    background-color: #ECB6DF;\n"
+                                           "    vertical-align: middle;\n"
+                                           "}")
         self.acceptRegButton.setObjectName("acceptRegButton")
         self.password = QtWidgets.QLineEdit(self.Registration)
         self.password.setGeometry(QtCore.QRect(490, 290, 311, 41))
@@ -56,12 +56,12 @@ class Ui_Form(object):
         font.setPointSize(16)
         self.password.setFont(font)
         self.password.setStyleSheet("/*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black")
+                                    "    background-color: #e7d2f1;\n"
+                                    "    border: 1px solid;\n"
+                                    "    border-radius:15;\n"
+                                    "    border-color: black;\n"
+                                    "    /*color: #8860D0;*/\n"
+                                    "    color: black")
         self.password.setText("")
         self.password.setEchoMode(QtWidgets.QLineEdit.Password)
         self.password.setAlignment(QtCore.Qt.AlignCenter)
@@ -75,12 +75,12 @@ class Ui_Form(object):
         font.setPointSize(16)
         self.login.setFont(font)
         self.login.setStyleSheet("/*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black")
+                                 "    background-color: #e7d2f1;\n"
+                                 "    border: 1px solid;\n"
+                                 "    border-radius:15;\n"
+                                 "    border-color: black;\n"
+                                 "    /*color: #8860D0;*/\n"
+                                 "    color: black")
         self.login.setAlignment(QtCore.Qt.AlignCenter)
         self.login.setObjectName("login")
         self.acceptMenuButton = QtWidgets.QPushButton(self.Registration)
@@ -91,19 +91,19 @@ class Ui_Form(object):
         font.setFamily("MS Reference Sans Serif")
         self.acceptMenuButton.setFont(font)
         self.acceptMenuButton.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"    vertical-align: middle;\n"
-"}")
+                                            "    /*background-color: #d39fcf;*/\n"
+                                            "    background-color: #e7d2f1;\n"
+                                            "    border: 1px solid;\n"
+                                            "    border-radius:15;\n"
+                                            "    border-color: black;\n"
+                                            "    /*color: #8860D0;*/\n"
+                                            "    color: black\n"
+                                            "}\n"
+                                            "\n"
+                                            "QPushButton:pressed {\n"
+                                            "    background-color: #ECB6DF;\n"
+                                            "    vertical-align: middle;\n"
+                                            "}")
         self.acceptMenuButton.setObjectName("acceptMenuButton")
         self.label = QtWidgets.QLabel(self.Registration)
         self.label.setGeometry(QtCore.QRect(480, 160, 331, 51))
@@ -144,12 +144,12 @@ class Ui_Form(object):
         font.setPointSize(16)
         self.passwordRepeat.setFont(font)
         self.passwordRepeat.setStyleSheet("/*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black")
+                                          "    background-color: #e7d2f1;\n"
+                                          "    border: 1px solid;\n"
+                                          "    border-radius:15;\n"
+                                          "    border-color: black;\n"
+                                          "    /*color: #8860D0;*/\n"
+                                          "    color: black")
         self.passwordRepeat.setText("")
         self.passwordRepeat.setEchoMode(QtWidgets.QLineEdit.Password)
         self.passwordRepeat.setAlignment(QtCore.Qt.AlignCenter)
@@ -188,12 +188,12 @@ class Ui_Form(object):
         font.setPointSize(16)
         self.loginAuth.setFont(font)
         self.loginAuth.setStyleSheet("    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black")
+                                     "    background-color: #e7d2f1;\n"
+                                     "    border: 1px solid;\n"
+                                     "    border-radius:15;\n"
+                                     "    border-color: black;\n"
+                                     "    /*color: #8860D0;*/\n"
+                                     "    color: black")
         self.loginAuth.setAlignment(QtCore.Qt.AlignCenter)
         self.loginAuth.setObjectName("loginAuth")
         self.acceptAuthButton = QtWidgets.QPushButton(self.Authorization)
@@ -204,19 +204,19 @@ class Ui_Form(object):
         font.setFamily("MS Reference Sans Serif")
         self.acceptAuthButton.setFont(font)
         self.acceptAuthButton.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"    vertical-align: middle;\n"
-"}")
+                                            "    /*background-color: #d39fcf;*/\n"
+                                            "    background-color: #e7d2f1;\n"
+                                            "    border: 1px solid;\n"
+                                            "    border-radius:15;\n"
+                                            "    border-color: black;\n"
+                                            "    /*color: #8860D0;*/\n"
+                                            "    color: black\n"
+                                            "}\n"
+                                            "\n"
+                                            "QPushButton:pressed {\n"
+                                            "    background-color: #ECB6DF;\n"
+                                            "    vertical-align: middle;\n"
+                                            "}")
         self.acceptAuthButton.setObjectName("acceptAuthButton")
         self.passwordAuth = QtWidgets.QLineEdit(self.Authorization)
         self.passwordAuth.setGeometry(QtCore.QRect(490, 330, 311, 41))
@@ -226,12 +226,12 @@ class Ui_Form(object):
         font.setPointSize(16)
         self.passwordAuth.setFont(font)
         self.passwordAuth.setStyleSheet("    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black")
+                                        "    background-color: #e7d2f1;\n"
+                                        "    border: 1px solid;\n"
+                                        "    border-radius:15;\n"
+                                        "    border-color: black;\n"
+                                        "    /*color: #8860D0;*/\n"
+                                        "    color: black")
         self.passwordAuth.setText("")
         self.passwordAuth.setEchoMode(QtWidgets.QLineEdit.Password)
         self.passwordAuth.setAlignment(QtCore.Qt.AlignCenter)
@@ -245,19 +245,19 @@ class Ui_Form(object):
         font.setFamily("MS Reference Sans Serif")
         self.regMenuButton.setFont(font)
         self.regMenuButton.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"    vertical-align: middle;\n"
-"}")
+                                         "    /*background-color: #d39fcf;*/\n"
+                                         "    background-color: #e7d2f1;\n"
+                                         "    border: 1px solid;\n"
+                                         "    border-radius:15;\n"
+                                         "    border-color: black;\n"
+                                         "    /*color: #8860D0;*/\n"
+                                         "    color: black\n"
+                                         "}\n"
+                                         "\n"
+                                         "QPushButton:pressed {\n"
+                                         "    background-color: #ECB6DF;\n"
+                                         "    vertical-align: middle;\n"
+                                         "}")
         self.regMenuButton.setObjectName("regMenuButton")
         self.stackedWidget.addWidget(self.Authorization)
         self.Editing = QtWidgets.QWidget()
@@ -299,12 +299,12 @@ class Ui_Form(object):
         self.surname.setFont(font)
         self.surname.setCursor(QtGui.QCursor(QtCore.Qt.SizeVerCursor))
         self.surname.setStyleSheet("    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black")
+                                   "    background-color: #e7d2f1;\n"
+                                   "    border: 1px solid;\n"
+                                   "    border-radius:15;\n"
+                                   "    border-color: black;\n"
+                                   "    /*color: #8860D0;*/\n"
+                                   "    color: black")
         self.surname.setFrame(True)
         self.surname.setCursorPosition(0)
         self.surname.setAlignment(QtCore.Qt.AlignCenter)
@@ -316,12 +316,12 @@ class Ui_Form(object):
         font.setPointSize(16)
         self.name.setFont(font)
         self.name.setStyleSheet("    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black")
+                                "    background-color: #e7d2f1;\n"
+                                "    border: 1px solid;\n"
+                                "    border-radius:15;\n"
+                                "    border-color: black;\n"
+                                "    /*color: #8860D0;*/\n"
+                                "    color: black")
         self.name.setAlignment(QtCore.Qt.AlignCenter)
         self.name.setObjectName("name")
         self.city = QtWidgets.QLineEdit(self.Editing)
@@ -331,12 +331,12 @@ class Ui_Form(object):
         font.setPointSize(16)
         self.city.setFont(font)
         self.city.setStyleSheet("    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black")
+                                "    background-color: #e7d2f1;\n"
+                                "    border: 1px solid;\n"
+                                "    border-radius:15;\n"
+                                "    border-color: black;\n"
+                                "    /*color: #8860D0;*/\n"
+                                "    color: black")
         self.city.setAlignment(QtCore.Qt.AlignCenter)
         self.city.setObjectName("city")
         self.email = QtWidgets.QLineEdit(self.Editing)
@@ -346,12 +346,12 @@ class Ui_Form(object):
         font.setPointSize(16)
         self.email.setFont(font)
         self.email.setStyleSheet("    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black")
+                                 "    background-color: #e7d2f1;\n"
+                                 "    border: 1px solid;\n"
+                                 "    border-radius:15;\n"
+                                 "    border-color: black;\n"
+                                 "    /*color: #8860D0;*/\n"
+                                 "    color: black")
         self.email.setAlignment(QtCore.Qt.AlignCenter)
         self.email.setObjectName("email")
         self.phoneNumber = QtWidgets.QLineEdit(self.Editing)
@@ -361,12 +361,12 @@ class Ui_Form(object):
         font.setPointSize(16)
         self.phoneNumber.setFont(font)
         self.phoneNumber.setStyleSheet("    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black")
+                                       "    background-color: #e7d2f1;\n"
+                                       "    border: 1px solid;\n"
+                                       "    border-radius:15;\n"
+                                       "    border-color: black;\n"
+                                       "    /*color: #8860D0;*/\n"
+                                       "    color: black")
         self.phoneNumber.setInputMethodHints(QtCore.Qt.ImhPreferNumbers)
         self.phoneNumber.setAlignment(QtCore.Qt.AlignCenter)
         self.phoneNumber.setObjectName("phoneNumber")
@@ -376,11 +376,11 @@ class Ui_Form(object):
         font.setPointSize(13)
         self.dateEdit.setFont(font)
         self.dateEdit.setStyleSheet("    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black")
+                                    "    background-color: #e7d2f1;\n"
+                                    "    border: 1px solid;\n"
+                                    "    border-color: black;\n"
+                                    "    /*color: #8860D0;*/\n"
+                                    "    color: black")
         self.dateEdit.setAlignment(QtCore.Qt.AlignCenter)
         self.dateEdit.setObjectName("dateEdit")
         self.label_4 = QtWidgets.QLabel(self.Editing)
@@ -405,11 +405,11 @@ class Ui_Form(object):
         self.comboBox.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.comboBox.setAutoFillBackground(False)
         self.comboBox.setStyleSheet("    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black")
+                                    "    background-color: #e7d2f1;\n"
+                                    "    border: 1px solid;\n"
+                                    "    border-color: black;\n"
+                                    "    /*color: #8860D0;*/\n"
+                                    "    color: black")
         self.comboBox.setEditable(False)
         self.comboBox.setCurrentText("Мужской")
         self.comboBox.setMaxVisibleItems(10)
@@ -425,19 +425,19 @@ class Ui_Form(object):
         font.setPointSize(12)
         self.backButton.setFont(font)
         self.backButton.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color:#eebef1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"    vertical-align: middle;\n"
-"}")
+                                      "    /*background-color: #d39fcf;*/\n"
+                                      "    background-color:#eebef1;\n"
+                                      "    border: 1px solid;\n"
+                                      "    border-radius:15;\n"
+                                      "    border-color: black;\n"
+                                      "    /*color: #8860D0;*/\n"
+                                      "    color: black\n"
+                                      "}\n"
+                                      "\n"
+                                      "QPushButton:pressed {\n"
+                                      "    background-color: #ECB6DF;\n"
+                                      "    vertical-align: middle;\n"
+                                      "}")
         self.backButton.setObjectName("backButton")
         self.saveButton = QtWidgets.QPushButton(self.Editing)
         self.saveButton.setGeometry(QtCore.QRect(650, 530, 171, 41))
@@ -445,19 +445,19 @@ class Ui_Form(object):
         font.setPointSize(12)
         self.saveButton.setFont(font)
         self.saveButton.setStyleSheet("QPushButton {\n"
-"        /*background-color: #d39fcf;*/\n"
-"    background-color:#eebef1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"    vertical-align: middle;\n"
-"}")
+                                      "        /*background-color: #d39fcf;*/\n"
+                                      "    background-color:#eebef1;\n"
+                                      "    border: 1px solid;\n"
+                                      "    border-radius:15;\n"
+                                      "    border-color: black;\n"
+                                      "    /*color: #8860D0;*/\n"
+                                      "    color: black\n"
+                                      "}\n"
+                                      "\n"
+                                      "QPushButton:pressed {\n"
+                                      "    background-color: #ECB6DF;\n"
+                                      "    vertical-align: middle;\n"
+                                      "}")
         self.saveButton.setObjectName("saveButton")
         self.stackedWidget.addWidget(self.Editing)
         self.MyselfPage = QtWidgets.QWidget()
@@ -468,19 +468,19 @@ class Ui_Form(object):
         font.setPointSize(20)
         self.messagesButton.setFont(font)
         self.messagesButton.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"    vertical-align: middle;\n"
-"}")
+                                          "    /*background-color: #d39fcf;*/\n"
+                                          "    background-color: #e7d2f1;\n"
+                                          "    border: 1px solid;\n"
+                                          "    border-radius:15;\n"
+                                          "    border-color: black;\n"
+                                          "    /*color: #8860D0;*/\n"
+                                          "    color: black\n"
+                                          "}\n"
+                                          "\n"
+                                          "QPushButton:pressed {\n"
+                                          "    background-color: #ECB6DF;\n"
+                                          "    vertical-align: middle;\n"
+                                          "}")
         self.messagesButton.setObjectName("messagesButton")
         self.mainPageButton = QtWidgets.QPushButton(self.MyselfPage)
         self.mainPageButton.setGeometry(QtCore.QRect(427, 0, 421, 41))
@@ -488,19 +488,19 @@ class Ui_Form(object):
         font.setPointSize(20)
         self.mainPageButton.setFont(font)
         self.mainPageButton.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"    vertical-align: middle;\n"
-"}")
+                                          "    /*background-color: #d39fcf;*/\n"
+                                          "    background-color: #e7d2f1;\n"
+                                          "    border: 1px solid;\n"
+                                          "    border-radius:15;\n"
+                                          "    border-color: black;\n"
+                                          "    /*color: #8860D0;*/\n"
+                                          "    color: black\n"
+                                          "}\n"
+                                          "\n"
+                                          "QPushButton:pressed {\n"
+                                          "    background-color: #ECB6DF;\n"
+                                          "    vertical-align: middle;\n"
+                                          "}")
         self.mainPageButton.setObjectName("mainPageButton")
         self.friendsButton = QtWidgets.QPushButton(self.MyselfPage)
         self.friendsButton.setGeometry(QtCore.QRect(848, 0, 433, 41))
@@ -508,19 +508,19 @@ class Ui_Form(object):
         font.setPointSize(20)
         self.friendsButton.setFont(font)
         self.friendsButton.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"    vertical-align: middle;\n"
-"}")
+                                         "    /*background-color: #d39fcf;*/\n"
+                                         "    background-color: #e7d2f1;\n"
+                                         "    border: 1px solid;\n"
+                                         "    border-radius:15;\n"
+                                         "    border-color: black;\n"
+                                         "    /*color: #8860D0;*/\n"
+                                         "    color: black\n"
+                                         "}\n"
+                                         "\n"
+                                         "QPushButton:pressed {\n"
+                                         "    background-color: #ECB6DF;\n"
+                                         "    vertical-align: middle;\n"
+                                         "}")
         self.friendsButton.setObjectName("friendsButton")
         self.myPhoto = QtWidgets.QLineEdit(self.MyselfPage)
         self.myPhoto.setGeometry(QtCore.QRect(10, 130, 400, 400))
@@ -528,13 +528,13 @@ class Ui_Form(object):
         font.setPointSize(50)
         self.myPhoto.setFont(font)
         self.myPhoto.setStyleSheet("/*background-color: #d39fcf;*/\n"
-"background-color: #e7d2f1;\n"
-"border: 1px solid;\n"
-"border-color: black;\n"
-"/*color: #8860D0;*/\n"
-"color: black;\n"
-"border-radius: 200;\n"
-"/*#F1D0E9; */")
+                                   "background-color: #e7d2f1;\n"
+                                   "border: 1px solid;\n"
+                                   "border-color: black;\n"
+                                   "/*color: #8860D0;*/\n"
+                                   "color: black;\n"
+                                   "border-radius: 200;\n"
+                                   "/*#F1D0E9; */")
         self.myPhoto.setAlignment(QtCore.Qt.AlignCenter)
         self.myPhoto.setObjectName("myPhoto")
         self.editButton = QtWidgets.QPushButton(self.MyselfPage)
@@ -543,30 +543,30 @@ class Ui_Form(object):
         font.setPointSize(25)
         self.editButton.setFont(font)
         self.editButton.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"    vertical-align: middle;\n"
-"}")
+                                      "    /*background-color: #d39fcf;*/\n"
+                                      "    background-color: #e7d2f1;\n"
+                                      "    border: 1px solid;\n"
+                                      "    border-radius:15;\n"
+                                      "    border-color: black;\n"
+                                      "    /*color: #8860D0;*/\n"
+                                      "    color: black\n"
+                                      "}\n"
+                                      "\n"
+                                      "QPushButton:pressed {\n"
+                                      "    background-color: #ECB6DF;\n"
+                                      "    vertical-align: middle;\n"
+                                      "}")
         self.editButton.setObjectName("editButton")
         self.myStatus = QtWidgets.QLineEdit(self.MyselfPage)
         self.myStatus.setGeometry(QtCore.QRect(450, 60, 671, 41))
         self.myStatus.setAcceptDrops(True)
         self.myStatus.setStyleSheet("/*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black")
+                                    "    background-color: #e7d2f1;\n"
+                                    "    border: 1px solid;\n"
+                                    "    border-radius:15;\n"
+                                    "    border-color: black;\n"
+                                    "    /*color: #8860D0;*/\n"
+                                    "    color: black")
         self.myStatus.setAlignment(QtCore.Qt.AlignCenter)
         self.myStatus.setObjectName("myStatus")
         self.line = QtWidgets.QFrame(self.MyselfPage)
@@ -582,12 +582,12 @@ class Ui_Form(object):
         font.setPointSize(8)
         self.addingPostButton.setFont(font)
         self.addingPostButton.setStyleSheet("/*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black")
+                                            "    background-color: #e7d2f1;\n"
+                                            "    border: 1px solid;\n"
+                                            "    border-radius:15;\n"
+                                            "    border-color: black;\n"
+                                            "    /*color: #8860D0;*/\n"
+                                            "    color: black")
         self.addingPostButton.setAlignment(QtCore.Qt.AlignCenter)
         self.addingPostButton.setObjectName("addingPostButton")
         self.publishButton = QtWidgets.QPushButton(self.MyselfPage)
@@ -598,19 +598,19 @@ class Ui_Form(object):
         font.setWeight(75)
         self.publishButton.setFont(font)
         self.publishButton.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"    vertical-align: middle;\n"
-"}")
+                                         "    /*background-color: #d39fcf;*/\n"
+                                         "    background-color: #e7d2f1;\n"
+                                         "    border: 1px solid;\n"
+                                         "    border-radius:15;\n"
+                                         "    border-color: black;\n"
+                                         "    /*color: #8860D0;*/\n"
+                                         "    color: black\n"
+                                         "}\n"
+                                         "\n"
+                                         "QPushButton:pressed {\n"
+                                         "    background-color: #ECB6DF;\n"
+                                         "    vertical-align: middle;\n"
+                                         "}")
         self.publishButton.setObjectName("publishButton")
         self.line_4 = QtWidgets.QFrame(self.MyselfPage)
         self.line_4.setGeometry(QtCore.QRect(450, 260, 811, 20))
@@ -660,19 +660,19 @@ class Ui_Form(object):
         font.setWeight(75)
         self.saveStatusButton.setFont(font)
         self.saveStatusButton.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"    vertical-align: middle;\n"
-"}")
+                                            "    /*background-color: #d39fcf;*/\n"
+                                            "    background-color: #e7d2f1;\n"
+                                            "    border: 1px solid;\n"
+                                            "    border-radius:15;\n"
+                                            "    border-color: black;\n"
+                                            "    /*color: #8860D0;*/\n"
+                                            "    color: black\n"
+                                            "}\n"
+                                            "\n"
+                                            "QPushButton:pressed {\n"
+                                            "    background-color: #ECB6DF;\n"
+                                            "    vertical-align: middle;\n"
+                                            "}")
         self.saveStatusButton.setObjectName("saveStatusButton")
         self.myEmail = QtWidgets.QLabel(self.MyselfPage)
         self.myEmail.setGeometry(QtCore.QRect(780, 120, 201, 31))
@@ -750,19 +750,19 @@ class Ui_Form(object):
         font.setPointSize(25)
         self.exitButton.setFont(font)
         self.exitButton.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"    vertical-align: middle;\n"
-"}")
+                                      "    /*background-color: #d39fcf;*/\n"
+                                      "    background-color: #e7d2f1;\n"
+                                      "    border: 1px solid;\n"
+                                      "    border-radius:15;\n"
+                                      "    border-color: black;\n"
+                                      "    /*color: #8860D0;*/\n"
+                                      "    color: black\n"
+                                      "}\n"
+                                      "\n"
+                                      "QPushButton:pressed {\n"
+                                      "    background-color: #ECB6DF;\n"
+                                      "    vertical-align: middle;\n"
+                                      "}")
         self.exitButton.setObjectName("exitButton")
         self.stackedWidget.addWidget(self.MyselfPage)
         self.Page = QtWidgets.QWidget()
@@ -773,18 +773,18 @@ class Ui_Form(object):
         font.setPointSize(20)
         self.messagesButton_2.setFont(font)
         self.messagesButton_2.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"}")
+                                            "    /*background-color: #d39fcf;*/\n"
+                                            "    background-color: #e7d2f1;\n"
+                                            "    border: 1px solid;\n"
+                                            "    border-radius:15;\n"
+                                            "    border-color: black;\n"
+                                            "    /*color: #8860D0;*/\n"
+                                            "    color: black\n"
+                                            "}\n"
+                                            "\n"
+                                            "QPushButton:pressed {\n"
+                                            "    background-color: #ECB6DF;\n"
+                                            "}")
         self.messagesButton_2.setObjectName("messagesButton_2")
         self.friendsButton_2 = QtWidgets.QPushButton(self.Page)
         self.friendsButton_2.setGeometry(QtCore.QRect(848, 0, 433, 41))
@@ -792,18 +792,18 @@ class Ui_Form(object):
         font.setPointSize(20)
         self.friendsButton_2.setFont(font)
         self.friendsButton_2.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"}")
+                                           "    /*background-color: #d39fcf;*/\n"
+                                           "    background-color: #e7d2f1;\n"
+                                           "    border: 1px solid;\n"
+                                           "    border-radius:15;\n"
+                                           "    border-color: black;\n"
+                                           "    /*color: #8860D0;*/\n"
+                                           "    color: black\n"
+                                           "}\n"
+                                           "\n"
+                                           "QPushButton:pressed {\n"
+                                           "    background-color: #ECB6DF;\n"
+                                           "}")
         self.friendsButton_2.setObjectName("friendsButton_2")
         self.Photo = QtWidgets.QLineEdit(self.Page)
         self.Photo.setGeometry(QtCore.QRect(10, 130, 400, 400))
@@ -811,13 +811,13 @@ class Ui_Form(object):
         font.setPointSize(50)
         self.Photo.setFont(font)
         self.Photo.setStyleSheet("/*background-color: #d39fcf;*/\n"
-"background-color: #e7d2f1;\n"
-"border: 1px solid;\n"
-"border-color: black;\n"
-"/*color: #8860D0;*/\n"
-"color: black;\n"
-"border-radius: 200;\n"
-"/*#F1D0E9; */")
+                                 "background-color: #e7d2f1;\n"
+                                 "border: 1px solid;\n"
+                                 "border-color: black;\n"
+                                 "/*color: #8860D0;*/\n"
+                                 "color: black;\n"
+                                 "border-radius: 200;\n"
+                                 "/*#F1D0E9; */")
         self.Photo.setAlignment(QtCore.Qt.AlignCenter)
         self.Photo.setObjectName("Photo")
         self.mainPageButton_2 = QtWidgets.QPushButton(self.Page)
@@ -826,18 +826,18 @@ class Ui_Form(object):
         font.setPointSize(20)
         self.mainPageButton_2.setFont(font)
         self.mainPageButton_2.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"}")
+                                            "    /*background-color: #d39fcf;*/\n"
+                                            "    background-color: #e7d2f1;\n"
+                                            "    border: 1px solid;\n"
+                                            "    border-radius:15;\n"
+                                            "    border-color: black;\n"
+                                            "    /*color: #8860D0;*/\n"
+                                            "    color: black\n"
+                                            "}\n"
+                                            "\n"
+                                            "QPushButton:pressed {\n"
+                                            "    background-color: #ECB6DF;\n"
+                                            "}")
         self.mainPageButton_2.setObjectName("mainPageButton_2")
         self.line_2 = QtWidgets.QFrame(self.Page)
         self.line_2.setGeometry(QtCore.QRect(450, 240, 811, 20))
@@ -852,19 +852,19 @@ class Ui_Form(object):
         font.setPointSize(25)
         self.addingFriendButton.setFont(font)
         self.addingFriendButton.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"    vertical-align: middle;\n"
-"}")
+                                              "    /*background-color: #d39fcf;*/\n"
+                                              "    background-color: #e7d2f1;\n"
+                                              "    border: 1px solid;\n"
+                                              "    border-radius:15;\n"
+                                              "    border-color: black;\n"
+                                              "    /*color: #8860D0;*/\n"
+                                              "    color: black\n"
+                                              "}\n"
+                                              "\n"
+                                              "QPushButton:pressed {\n"
+                                              "    background-color: #ECB6DF;\n"
+                                              "    vertical-align: middle;\n"
+                                              "}")
         self.addingFriendButton.setObjectName("addingFriendButton")
         self.goToDialogButton = QtWidgets.QPushButton(self.Page)
         self.goToDialogButton.setGeometry(QtCore.QRect(10, 550, 401, 51))
@@ -872,18 +872,18 @@ class Ui_Form(object):
         font.setPointSize(25)
         self.goToDialogButton.setFont(font)
         self.goToDialogButton.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"}")
+                                            "    /*background-color: #d39fcf;*/\n"
+                                            "    background-color: #e7d2f1;\n"
+                                            "    border: 1px solid;\n"
+                                            "    border-radius:15;\n"
+                                            "    border-color: black;\n"
+                                            "    /*color: #8860D0;*/\n"
+                                            "    color: black\n"
+                                            "}\n"
+                                            "\n"
+                                            "QPushButton:pressed {\n"
+                                            "    background-color: #ECB6DF;\n"
+                                            "}")
         self.goToDialogButton.setObjectName("goToDialogButton")
         self.line_3 = QtWidgets.QFrame(self.Page)
         self.line_3.setGeometry(QtCore.QRect(450, 260, 811, 20))
@@ -1020,18 +1020,18 @@ class Ui_Form(object):
         font.setPointSize(20)
         self.friendsButton_5.setFont(font)
         self.friendsButton_5.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"}")
+                                           "    /*background-color: #d39fcf;*/\n"
+                                           "    background-color: #e7d2f1;\n"
+                                           "    border: 1px solid;\n"
+                                           "    border-radius:15;\n"
+                                           "    border-color: black;\n"
+                                           "    /*color: #8860D0;*/\n"
+                                           "    color: black\n"
+                                           "}\n"
+                                           "\n"
+                                           "QPushButton:pressed {\n"
+                                           "    background-color: #ECB6DF;\n"
+                                           "}")
         self.friendsButton_5.setObjectName("friendsButton_5")
         self.messagesButton_5 = QtWidgets.QPushButton(self.Friends)
         self.messagesButton_5.setGeometry(QtCore.QRect(0, 0, 427, 41))
@@ -1039,18 +1039,18 @@ class Ui_Form(object):
         font.setPointSize(20)
         self.messagesButton_5.setFont(font)
         self.messagesButton_5.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"}")
+                                            "    /*background-color: #d39fcf;*/\n"
+                                            "    background-color: #e7d2f1;\n"
+                                            "    border: 1px solid;\n"
+                                            "    border-radius:15;\n"
+                                            "    border-color: black;\n"
+                                            "    /*color: #8860D0;*/\n"
+                                            "    color: black\n"
+                                            "}\n"
+                                            "\n"
+                                            "QPushButton:pressed {\n"
+                                            "    background-color: #ECB6DF;\n"
+                                            "}")
         self.messagesButton_5.setObjectName("messagesButton_5")
         self.mainPageButton_5 = QtWidgets.QPushButton(self.Friends)
         self.mainPageButton_5.setGeometry(QtCore.QRect(427, 0, 421, 41))
@@ -1058,18 +1058,18 @@ class Ui_Form(object):
         font.setPointSize(20)
         self.mainPageButton_5.setFont(font)
         self.mainPageButton_5.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"}")
+                                            "    /*background-color: #d39fcf;*/\n"
+                                            "    background-color: #e7d2f1;\n"
+                                            "    border: 1px solid;\n"
+                                            "    border-radius:15;\n"
+                                            "    border-color: black;\n"
+                                            "    /*color: #8860D0;*/\n"
+                                            "    color: black\n"
+                                            "}\n"
+                                            "\n"
+                                            "QPushButton:pressed {\n"
+                                            "    background-color: #ECB6DF;\n"
+                                            "}")
         self.mainPageButton_5.setObjectName("mainPageButton_5")
         self.line_13 = QtWidgets.QFrame(self.Friends)
         self.line_13.setGeometry(QtCore.QRect(350, 60, 20, 641))
@@ -1093,12 +1093,12 @@ class Ui_Form(object):
         self.searchByID.setGeometry(QtCore.QRect(0, 60, 231, 41))
         self.searchByID.setAcceptDrops(True)
         self.searchByID.setStyleSheet("/*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black")
+                                      "    background-color: #e7d2f1;\n"
+                                      "    border: 1px solid;\n"
+                                      "    border-radius:15;\n"
+                                      "    border-color: black;\n"
+                                      "    /*color: #8860D0;*/\n"
+                                      "    color: black")
         self.searchByID.setAlignment(QtCore.Qt.AlignCenter)
         self.searchByID.setObjectName("searchByID")
         self.toSearchButton = QtWidgets.QPushButton(self.Friends)
@@ -1107,18 +1107,18 @@ class Ui_Form(object):
         font.setPointSize(15)
         self.toSearchButton.setFont(font)
         self.toSearchButton.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"}")
+                                          "    /*background-color: #d39fcf;*/\n"
+                                          "    background-color: #e7d2f1;\n"
+                                          "    border: 1px solid;\n"
+                                          "    border-radius:15;\n"
+                                          "    border-color: black;\n"
+                                          "    /*color: #8860D0;*/\n"
+                                          "    color: black\n"
+                                          "}\n"
+                                          "\n"
+                                          "QPushButton:pressed {\n"
+                                          "    background-color: #ECB6DF;\n"
+                                          "}")
         self.toSearchButton.setObjectName("toSearchButton")
         self.areaForSearch = QtWidgets.QScrollArea(self.Friends)
         self.areaForSearch.setGeometry(QtCore.QRect(0, 110, 360, 591))
@@ -1137,18 +1137,18 @@ class Ui_Form(object):
         font.setPointSize(20)
         self.mainPageButton_3.setFont(font)
         self.mainPageButton_3.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"}")
+                                            "    /*background-color: #d39fcf;*/\n"
+                                            "    background-color: #e7d2f1;\n"
+                                            "    border: 1px solid;\n"
+                                            "    border-radius:15;\n"
+                                            "    border-color: black;\n"
+                                            "    /*color: #8860D0;*/\n"
+                                            "    color: black\n"
+                                            "}\n"
+                                            "\n"
+                                            "QPushButton:pressed {\n"
+                                            "    background-color: #ECB6DF;\n"
+                                            "}")
         self.mainPageButton_3.setObjectName("mainPageButton_3")
         self.messagesButton_3 = QtWidgets.QPushButton(self.InactiveMessenger)
         self.messagesButton_3.setGeometry(QtCore.QRect(0, 0, 427, 41))
@@ -1156,18 +1156,18 @@ class Ui_Form(object):
         font.setPointSize(20)
         self.messagesButton_3.setFont(font)
         self.messagesButton_3.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"}")
+                                            "    /*background-color: #d39fcf;*/\n"
+                                            "    background-color: #e7d2f1;\n"
+                                            "    border: 1px solid;\n"
+                                            "    border-radius:15;\n"
+                                            "    border-color: black;\n"
+                                            "    /*color: #8860D0;*/\n"
+                                            "    color: black\n"
+                                            "}\n"
+                                            "\n"
+                                            "QPushButton:pressed {\n"
+                                            "    background-color: #ECB6DF;\n"
+                                            "}")
         self.messagesButton_3.setObjectName("messagesButton_3")
         self.friendsButton_3 = QtWidgets.QPushButton(self.InactiveMessenger)
         self.friendsButton_3.setGeometry(QtCore.QRect(848, 0, 433, 41))
@@ -1175,18 +1175,18 @@ class Ui_Form(object):
         font.setPointSize(20)
         self.friendsButton_3.setFont(font)
         self.friendsButton_3.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"}")
+                                           "    /*background-color: #d39fcf;*/\n"
+                                           "    background-color: #e7d2f1;\n"
+                                           "    border: 1px solid;\n"
+                                           "    border-radius:15;\n"
+                                           "    border-color: black;\n"
+                                           "    /*color: #8860D0;*/\n"
+                                           "    color: black\n"
+                                           "}\n"
+                                           "\n"
+                                           "QPushButton:pressed {\n"
+                                           "    background-color: #ECB6DF;\n"
+                                           "}")
         self.friendsButton_3.setObjectName("friendsButton_3")
         self.line_7 = QtWidgets.QFrame(self.InactiveMessenger)
         self.line_7.setGeometry(QtCore.QRect(420, 60, 20, 641))
@@ -1211,18 +1211,18 @@ class Ui_Form(object):
         font.setPointSize(20)
         self.friendsButton_4.setFont(font)
         self.friendsButton_4.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"}")
+                                           "    /*background-color: #d39fcf;*/\n"
+                                           "    background-color: #e7d2f1;\n"
+                                           "    border: 1px solid;\n"
+                                           "    border-radius:15;\n"
+                                           "    border-color: black;\n"
+                                           "    /*color: #8860D0;*/\n"
+                                           "    color: black\n"
+                                           "}\n"
+                                           "\n"
+                                           "QPushButton:pressed {\n"
+                                           "    background-color: #ECB6DF;\n"
+                                           "}")
         self.friendsButton_4.setObjectName("friendsButton_4")
         self.line_8 = QtWidgets.QFrame(self.ActiveMessenger)
         self.line_8.setGeometry(QtCore.QRect(420, 60, 20, 641))
@@ -1236,18 +1236,18 @@ class Ui_Form(object):
         font.setPointSize(20)
         self.messagesButton_4.setFont(font)
         self.messagesButton_4.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"}")
+                                            "    /*background-color: #d39fcf;*/\n"
+                                            "    background-color: #e7d2f1;\n"
+                                            "    border: 1px solid;\n"
+                                            "    border-radius:15;\n"
+                                            "    border-color: black;\n"
+                                            "    /*color: #8860D0;*/\n"
+                                            "    color: black\n"
+                                            "}\n"
+                                            "\n"
+                                            "QPushButton:pressed {\n"
+                                            "    background-color: #ECB6DF;\n"
+                                            "}")
         self.messagesButton_4.setObjectName("messagesButton_4")
         self.mainPageButton_4 = QtWidgets.QPushButton(self.ActiveMessenger)
         self.mainPageButton_4.setGeometry(QtCore.QRect(427, 0, 421, 41))
@@ -1255,18 +1255,18 @@ class Ui_Form(object):
         font.setPointSize(20)
         self.mainPageButton_4.setFont(font)
         self.mainPageButton_4.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"}")
+                                            "    /*background-color: #d39fcf;*/\n"
+                                            "    background-color: #e7d2f1;\n"
+                                            "    border: 1px solid;\n"
+                                            "    border-radius:15;\n"
+                                            "    border-color: black;\n"
+                                            "    /*color: #8860D0;*/\n"
+                                            "    color: black\n"
+                                            "}\n"
+                                            "\n"
+                                            "QPushButton:pressed {\n"
+                                            "    background-color: #ECB6DF;\n"
+                                            "}")
         self.mainPageButton_4.setObjectName("mainPageButton_4")
         self.TextMessageButton = QtWidgets.QLineEdit(self.ActiveMessenger)
         self.TextMessageButton.setGeometry(QtCore.QRect(440, 650, 701, 51))
@@ -1274,12 +1274,12 @@ class Ui_Form(object):
         font.setPointSize(8)
         self.TextMessageButton.setFont(font)
         self.TextMessageButton.setStyleSheet("/*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black")
+                                             "    background-color: #e7d2f1;\n"
+                                             "    border: 1px solid;\n"
+                                             "    border-radius:15;\n"
+                                             "    border-color: black;\n"
+                                             "    /*color: #8860D0;*/\n"
+                                             "    color: black")
         self.TextMessageButton.setAlignment(QtCore.Qt.AlignCenter)
         self.TextMessageButton.setObjectName("TextMessageButton")
         self.sendingButton = QtWidgets.QPushButton(self.ActiveMessenger)
@@ -1290,19 +1290,19 @@ class Ui_Form(object):
         font.setWeight(75)
         self.sendingButton.setFont(font)
         self.sendingButton.setStyleSheet("QPushButton {\n"
-"    /*background-color: #d39fcf;*/\n"
-"    background-color: #e7d2f1;\n"
-"    border: 1px solid;\n"
-"    border-radius:15;\n"
-"    border-color: black;\n"
-"    /*color: #8860D0;*/\n"
-"    color: black\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #ECB6DF;\n"
-"    vertical-align: middle;\n"
-"}")
+                                         "    /*background-color: #d39fcf;*/\n"
+                                         "    background-color: #e7d2f1;\n"
+                                         "    border: 1px solid;\n"
+                                         "    border-radius:15;\n"
+                                         "    border-color: black;\n"
+                                         "    /*color: #8860D0;*/\n"
+                                         "    color: black\n"
+                                         "}\n"
+                                         "\n"
+                                         "QPushButton:pressed {\n"
+                                         "    background-color: #ECB6DF;\n"
+                                         "    vertical-align: middle;\n"
+                                         "}")
         self.sendingButton.setObjectName("sendingButton")
         self.line_9 = QtWidgets.QFrame(self.ActiveMessenger)
         self.line_9.setGeometry(QtCore.QRect(-10, 50, 1281, 20))
