@@ -3,7 +3,8 @@ from flask import Flask, request, make_response, abort
 import time
 
 
-dbclient = pymongo.MongoClient("mongodb://arch.designer:27017")
+#dbclient = pymongo.MongoClient("mongodb://arch.designer:27017")
+dbclient = pymongo.MongoClient("mongodb://localhost:27017/")
 currentdb = dbclient["SocialNetwork"]
 users = currentdb["Users"]
 posts = currentdb["Posts"]

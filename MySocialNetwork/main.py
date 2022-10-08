@@ -1,8 +1,9 @@
 import json
 import sys
-from PyQt5 import QtWidgets, QtCore
-import pyodbc
-from datetime import datetime
+from PyQt5 import QtWidgets, QtCore, QtGui
+
+from PyQt5.QtGui import QFont
+
 from FlaskRequests import register, auth, checkInfo, editing, editStatus, postAdding, checkPosts, changingPosts, \
     sendingMessage, gettingMessage
 from Interface import Ui_Form
@@ -15,6 +16,7 @@ import time
 class MainPage:
     def __init__(self):
         self.main_win = QMainWindow()
+        self.main_win.setFixedSize(1280, 720)
         self.ui = Ui_Form()
         self.ui.setupUi(self.main_win)
 
@@ -89,6 +91,13 @@ class MainPage:
 
     def goToEdit(self):
         self.ui.stackedWidget.setCurrentWidget(self.ui.Editing)
+        self.ui.surname.setText(self.ui.mySurname.text())
+        self.ui.name.setText(self.ui.myName.text())
+        self.ui.city.setText(self.ui.myCity.text())
+        self.ui.email.setText(self.ui.myEmail.text())
+        self.ui.phoneNumber.setText("+79000000000")
+        self.ui.birthDate.setText(self.ui.myBirthDate.text())
+
 
     def goToSend(self):
         message = self.ui.TextMessageButton.text()
@@ -117,6 +126,7 @@ class MainPage:
         for message in messages:
             print(message)
             self.ui.textBrowser.append(self.formatmessage(message))
+            self.ui.textBrowser.setFont(QFont("Times", 15))
             self.ui.textBrowser.repaint()
             self.after = message['date']
 

@@ -92,3 +92,4 @@ def gettingMessage(date):
         return response
     else:
         return False
+
